@@ -12,13 +12,16 @@
     <div class="container">
         <div class="euro">
             <p id="euroText">Euro</p>
-            <label for="euroSum"></label>
-            <input type="text" style="font-size: 20px;" id="euroSum" name="euroSum" placeholder="input value here">
+            <input type="text" style="font-size: 20px;" id="amount" name="amount" placeholder="input value here">
         </div>
         <div class="other">
-            <p id="otherText">Other</p>
-            <label for="otherSum"></label>
-            <input type="text" style="font-size: 20px;" id="otherSum" name="otherSum" placeholder="value will be shown here">
+            <select id="to">
+                <option value="USD">USD</option>
+                <option value="GBP">GBP</option>
+                <option value="INR">INR</option>
+            </select>
+            <button type="button" id="submit">Submit</button>
+            <p id="result">Result</p>
         </div>
         
     </div>

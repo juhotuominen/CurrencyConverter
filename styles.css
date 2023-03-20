@@ -25,16 +25,15 @@
 #euroText{
     color: green;
     font-size: 25px;
-    margin: 10px;
+    margin: 20px;
 }
-#otherText{
-    color: purple;
-    font-size: 25px;
-    margin: 10px;
+#to{
+    height: 30px;
+    width: 70px;
+    margin: 25px;
 }
-#euroSum{
-    height: 50px;
+#submit{
+    height: 30px;
+    width: 70px;
 }
-#otherSum{
-    height: 50px;
-}
+
