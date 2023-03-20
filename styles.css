@@ -1,0 +1,40 @@
+.container{
+    border: solid;
+    margin: 100px auto;
+    height: 400px;
+    width: 400px;
+
+}
+
+.euro{
+    color: blue;
+    height: 150px;
+    width: 300px;
+    margin: 30px auto;
+    border: solid;
+    text-align: center;
+}
+.other{
+    color: red;
+    height: 150px;
+    width: 300px;
+    margin: 30px auto;
+    border: solid;
+    text-align: center;
+}
+#euroText{
+    color: green;
+    font-size: 25px;
+    margin: 10px;
+}
+#otherText{
+    color: purple;
+    font-size: 25px;
+    margin: 10px;
+}
+#euroSum{
+    height: 50px;
+}
+#otherSum{
+    height: 50px;
+}
