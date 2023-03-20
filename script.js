@@ -5,7 +5,7 @@ const amount = document.getElementById("amount");
 
 submit.addEventListener("click", function(){
     let amt = amount.value;
-    let currency = to.value;
+    let currency = to.value.toUpperCase();
 
     fetch('https://api.exchangerate.host/latest')
     .then(response => {

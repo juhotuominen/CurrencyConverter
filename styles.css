@@ -7,19 +7,18 @@
 }
 
 .euro{
-    color: blue;
-    height: 150px;
+    
+    height: 100px;
     width: 300px;
     margin: 30px auto;
-    border: solid;
     text-align: center;
 }
 .other{
-    color: red;
-    height: 150px;
+
+    height: 230px;
     width: 300px;
     margin: 30px auto;
-    border: solid;
+    
     text-align: center;
 }
 #euroText{
@@ -27,13 +26,20 @@
     font-size: 25px;
     margin: 20px;
 }
+#otherText{
+    font-size: 30px;
+}
 #to{
-    height: 30px;
-    width: 70px;
-    margin: 25px;
+    font-size: 18px;
+    width: 55px;
+    height: 24px;
 }
 #submit{
     height: 30px;
     width: 70px;
+}
+#result{
+    margin-top: 50px;
+    font-size: 20px;
 }
 
