@@ -16,7 +16,15 @@
         </div>
         <div class="other">
             <p id="otherText">Exchange to:</p>
-            <input type="text" id="to" name="to" placeholder="USD">
+            
+            <input id="to" list="choices" name="currency-choice"/>
+            <datalist id="choices">
+                <option value="USD">
+                <option value="GBR">
+                <option value="JPY">
+                <option value="CNY">
+                <option value="AUD">
+            </datalist>
             <button type="button" id="submit">Submit</button>
             <p id="result">Result</p>
         </div>
