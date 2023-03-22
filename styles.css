@@ -1,45 +1,91 @@
+body{
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(110, 87, 136);
+    text-align: center;
+    align-items: center;
+}
+.header{
+    /*This is used to fill top of the site*/
+    /*------------------------------------*/
+    border: 1px solid; 
+    border-color: rgb(56, 27, 83, 0.562);
+    /*------------------------------------*/
+    background-color: rgba(56, 27, 83, 0.562);
+    border-bottom: solid 5px rgba(56, 27, 83, 0.562);
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+}
+
 .container{
-    border: solid;
-    margin: 100px auto;
+    background-color: rgba(235, 235, 235, 0.384);
+    border-radius: 10%;
+    margin: 150px auto;
     height: 400px;
     width: 400px;
-
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    box-shadow: -5px 5px 8px 3px #1a271a;
 }
 
 .euro{
-    
     height: 100px;
     width: 300px;
-    margin: 30px auto;
+    margin: 15px auto;
     text-align: center;
 }
 .other{
-
     height: 230px;
     width: 300px;
     margin: 30px auto;
-    
     text-align: center;
 }
 #euroText{
-    color: green;
-    font-size: 25px;
-    margin: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #otherText{
     font-size: 30px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #to{
     font-size: 18px;
-    width: 70px;
-    height: 24px;
+    width: 80px;
+    height: 28px;
+    border: 2px solid;
+    border-radius: 8%;
+}
+#amount{
+    border: 2px solid;
+    height: 30px;
+    width: 160px;
 }
 #submit{
     height: 30px;
     width: 70px;
+    border-radius: 12%;
+    margin-left: 7px;
+    font-weight: 600;
+}
+#submit:hover{
+    background-color: rgb(59, 59, 59);
+    color: white;
+    cursor: pointer;
 }
 #result{
     margin-top: 50px;
     font-size: 20px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+::placeholder{
+    text-align: center;
 }
 

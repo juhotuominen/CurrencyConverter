@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="header">
+        <h1>Currency Exchange</h1>
+    </div>
     <div class="container">
         <div class="euro">
             <p id="euroText">Euro</p>
@@ -17,7 +20,7 @@
         <div class="other">
             <p id="otherText">Exchange to:</p>
             
-            <input id="to" list="choices" name="currency-choice"/>
+            <input id="to" list="choices" name="currency-choice" placeholder="search"/>
             <datalist id="choices">
                 <option value="USD">
                 <option value="GBR">
@@ -26,7 +29,7 @@
                 <option value="AUD">
             </datalist>
             <button type="button" id="submit">Submit</button>
-            <p id="result">Result</p>
+            <p id="result">0</p>
         </div>
         
     </div>
