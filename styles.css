@@ -55,13 +55,7 @@ h1{
     font-weight: 300;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#to{
-    font-size: 18px;
-    width: 80px;
-    height: 28px;
-    border: 2px solid;
-    border-radius: 8%;
-}
+
 #amount{
     border: 2px solid;
     height: 30px;
@@ -87,5 +81,22 @@ h1{
 }
 ::placeholder{
     text-align: center;
+}
+
+
+.select-editable {
+    position:relative;
+    background-color:white;
+    border:solid rgb(44, 44, 44) 1px;
+    width:120px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+
+#to{
+    width: 120px;
+    height:28px;
+    border:solid rgb(44, 44, 44) 1px;
+    font-size: 18px;
 }
 

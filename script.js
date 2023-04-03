@@ -12,8 +12,8 @@ submit.addEventListener("click", function(){
         return response.json();
     })
     .then(data => {
-        let rate = data.rates[currency];
-        let total = rate * amt;
-        result.innerHTML = total;
+            let rate = data.rates[currency];
+            let total = rate * amt;
+            result.innerHTML = total;
     })
 })
