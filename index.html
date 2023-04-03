@@ -19,15 +19,19 @@
         </div>
         <div class="other">
             <p id="otherText">Exchange to:</p>
-            
+            <div class="select-editable">
+                <select onchange="this.nextElementSibling.value=this.value">
+                    <option value=""></option>
+                        <option value="USD">USD</option>
+                        <option value="GBP">GBP</option>
+                        <option value="JPY">JPY</option>
+                        <option value="CNY">CNY</option>
+                        <option value="AUD">AUD</option>
+                </select>
+                <input type="text" name="format" value="" />
+            </div>
             <input id="to" list="choices" name="currency-choice" placeholder="search"/>
-            <datalist id="choices">
-                <option value="USD">
-                <option value="GBP">
-                <option value="JPY">
-                <option value="CNY">
-                <option value="AUD">
-            </datalist>
+            
             <button type="button" id="submit">Submit</button>
             <p id="result">0</p>
         </div>
